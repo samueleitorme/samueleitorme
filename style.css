@@ -44,26 +44,22 @@ a {
    font-size: 6em;
    font-weight: bold;
    user-select: none;
+   opacity: 0;
 }
+
 
 .title__scroll {
-   /* background-color: #38c37b; */
-   border-radius: 20px;
-   padding: 2rem 4rem;
-
    position: absolute;
-   translate: 0 30vh;
-}
-
-.title__scroll a {
+   transform: translateY(350px);
+   animation: scroll-jump 1s infinite;
    color: var(--c-light);
-   font-size: 2em;
-   animation: scroll-jump 1s infinite 3s ease-in-out;
+   font-size: 5rem;
 }
 
 @keyframes scroll-jump {
    0% {
       translate: 0 5px;
+
    }
 
    50% {
@@ -75,6 +71,42 @@ a {
    }
 }
 
+
+
+.title__animation{
+   height: 6em;
+   overflow: hidden;
+}
+.title__animation > h1{
+   padding: 0.25rem 0.75rem;
+   height: 3rem;
+   margin-bottom: 3rem;
+   display: inline-block;
+}
+.title__animation{
+   animation: text-animation 10s infinite;
+}
+.first{
+   background-color: pink;
+}
+.second{
+   background-color: skyblue;
+}
+
+@keyframes text-animation {
+   0%{margin-top: 0;}
+   10%{margin-top: 0;}
+   20%{margin-top: -3rem;}
+   30%{margin-top: -3rem;}
+   40%{margin-top: -6rem;}
+   60%{margin-top: -6rem;}
+   70%{margin-top: -3rem;}
+   80%{margin-top: -3rem;}
+   90%{margin-top: 0;}
+   100%{margin-top: 0;}
+   
+}
+
 /* ------------------------
    CUERPO
 ------------------------ */
@@ -82,14 +114,26 @@ a {
 main section {
    height: 100vh;
    background-color: var(--c-primary);
-   padding: 5%;
    color: var(--c-dark)
+}
+
+main section:nth-child(even) {
+   background-color: var(--c-light);
+
+}
+
+section>* {
+   padding-left: 5em;
 }
 
 section h2 {
    font-family: var(--f-title);
+   padding-top: 2em;
    color: var(--c-dark);
    font-size: 4em;
+   max-width: 50%;
+   border-bottom: 1px solid transparent;
+
 }
 
 section h4 {
@@ -106,13 +150,6 @@ section p {
    font-size: 2rem;
 
 }
-
-
-.projects {
-   background-color: var(--c-light);
-   height: 100vh;
-}
-
 
 /* Footer */
 footer {
