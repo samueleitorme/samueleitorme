@@ -44,22 +44,20 @@ a {
    font-size: 6em;
    font-weight: bold;
    user-select: none;
-   opacity: 0;
 }
 
 
 .title__scroll {
    position: absolute;
    transform: translateY(350px);
-   animation: scroll-jump 1s infinite;
    color: var(--c-light);
    font-size: 5rem;
+   animation: scroll-jump 1s infinite ease-in-out;
 }
 
 @keyframes scroll-jump {
    0% {
       translate: 0 5px;
-
    }
 
    50% {
@@ -71,41 +69,6 @@ a {
    }
 }
 
-
-
-.title__animation{
-   height: 6em;
-   overflow: hidden;
-}
-.title__animation > h1{
-   padding: 0.25rem 0.75rem;
-   height: 3rem;
-   margin-bottom: 3rem;
-   display: inline-block;
-}
-.title__animation{
-   animation: text-animation 10s infinite;
-}
-.first{
-   background-color: pink;
-}
-.second{
-   background-color: skyblue;
-}
-
-@keyframes text-animation {
-   0%{margin-top: 0;}
-   10%{margin-top: 0;}
-   20%{margin-top: -3rem;}
-   30%{margin-top: -3rem;}
-   40%{margin-top: -6rem;}
-   60%{margin-top: -6rem;}
-   70%{margin-top: -3rem;}
-   80%{margin-top: -3rem;}
-   90%{margin-top: 0;}
-   100%{margin-top: 0;}
-   
-}
 
 /* ------------------------
    CUERPO
