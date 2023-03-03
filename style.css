@@ -106,13 +106,36 @@ section h4 {
    color: #1d222add;
 }
 
-section p {
+section * > p {
    max-width: 50%;
    font-family: 'Monserrat';
    font-weight: normal;
    font-size: 2rem;
 
 }
+
+
+/* Cards */
+.cards{
+   background-color: skyblue;
+   width: 80vw;
+   height: 50vh;
+   border-radius: 20px;
+   margin: 2rem;
+   padding: 2rem;
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+}
+/* Aureka */
+.cards_div{
+   background-color: var(--c-primary);
+
+}
+
+
+
 
 /* Footer */
 footer {
