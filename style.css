@@ -11,6 +11,7 @@
    --c-primary: #38c37b;
 
    --f-title: 'Poppins', sans-serif;
+   --f-code: 'Fira Code', serif;
 }
 
 html {
@@ -27,114 +28,37 @@ a {
    color: inherit;
 }
 
+
 /* ------------------------
    CABEZERA
 ------------------------ */
 .title {
-   height: 100vh;
+   height: 80vh;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
-.title h1 {
+.title-h1 {
    position: relative;
-   translate: 0 -50px;
    font-family: var(--f-title);
    font-size: 6em;
    font-weight: bold;
    user-select: none;
+   text-decoration: underline 2px;
+   text-decoration-color: var(--c-light);
+   text-underline-offset: 15px;
 }
 
-
-.title__scroll {
-   position: absolute;
-   transform: translateY(350px);
+.title-p {
    color: var(--c-light);
-   font-size: 5rem;
-   animation: scroll-jump 1s infinite ease-in-out;
-}
-
-@keyframes scroll-jump {
-   0% {
-      translate: 0 5px;
-   }
-
-   50% {
-      translate: 0 -5px;
-   }
-
-   100% {
-      translate: 0 5px;
-   }
-}
-
-
-/* ------------------------
-   CUERPO
------------------------- */
-
-main section {
-   height: 100vh;
-   background-color: var(--c-primary);
-   color: var(--c-dark)
-}
-
-main section:nth-child(even) {
-   background-color: var(--c-light);
-
-}
-
-section>* {
-   padding-left: 5em;
-}
-
-section h2 {
-   font-family: var(--f-title);
-   padding-top: 2em;
-   color: var(--c-dark);
-   font-size: 4em;
-   max-width: 50%;
-   border-bottom: 1px solid transparent;
-
-}
-
-section h4 {
-   font-family: var(--f-title);
-   font-size: 3em;
-   font-weight: normal;
-   color: #1d222add;
-}
-
-section * > p {
-   max-width: 50%;
-   font-family: 'Monserrat';
-   font-weight: normal;
+   font-weight: lighter;
+   font-family: var(--f-code);
    font-size: 2rem;
-
+   margin-top: 2rem;
+   width: 30%;
 }
-
-
-/* Cards */
-.cards{
-   background-color: skyblue;
-   width: 80vw;
-   height: 50vh;
-   border-radius: 20px;
-   margin: 2rem;
-   padding: 2rem;
-   display: flex;
-   flex-flow: row;
-   justify-content: center;
-   align-items: center;
-}
-/* Aureka */
-.cards_div{
-   background-color: var(--c-primary);
-
-}
-
-
 
 
 /* Footer */
@@ -150,16 +74,22 @@ footer {
    width: 50vw;
    display: flex;
    justify-content: space-around;
+
 }
 
-.rss p {
+.rss a {
    padding: 1rem;
    display: block;
    font-size: 2em;
    transition: 300ms;
 }
 
-.rss p:hover {
-   transition: 300ms;
-   transform: scale(150%);
+.rss a:hover {
+   transition: .3s ease;
+   transform: scale(155%);
+   color: var(--c-light);
+   text-shadow:
+      0 0 25px var(--c-primary),
+      0 0 50px var(--c-primary),
+      0 0 75px var(--c-primary);
 }
