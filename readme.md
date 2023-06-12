@@ -4,7 +4,7 @@
 
 Hey 👋🏼! Soy Samu.
 
-- [.me portfolio](https://github.io/samueleitorme)
+- [.me portfolio](https://samueleitorme.github.io/samueleitorme/)
 
 ## Datos curiosos
 
