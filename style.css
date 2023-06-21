@@ -93,3 +93,32 @@ footer {
       0 0 50px var(--c-primary),
       0 0 75px var(--c-primary);
 }
+
+/* Dispositivos móviles */
+@media (max-width:480px) {
+   .title-h1 {
+      font-size: 2rem;
+   }
+
+   .title-p {
+      width: 300px;
+      font-size: 1.5rem;
+   }
+
+   footer {
+      bottom: 0;
+   }
+}
+
+/* Dispositivos Tablet */
+@media (min-width:480px) and (max-width:1024px) {
+   .title-h1 {
+      font-size: 4rem;
+      color: pink;
+   }
+
+   .title-p {
+      width: 70%;
+      font-size: 1.5rem;
+   }
+}
