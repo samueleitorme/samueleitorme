@@ -26,7 +26,7 @@
 
 ###
 
-<p align="left">Soy Samuel, un chico joven con ganas de aprender. <br><br>- 🔭 Estoy trabajando como estudiante.<br>- 📚 Actualmente estoy aprendiendo Python, JS y Docker<br>- ⚡ En mi tiempo libre investigo nuevas tecnologías, juego videojuegos, estoy aprendiendo el hábito de la lectura y toco la guitarra 🎸</p>
+<p align="left">Soy Samu, un chico joven con ganas de aprender. <br><br>- 🔭 Estoy trabajando como estudiante.<br>- 📚 Actualmente estoy aprendiendo Python, JS y Docker<br>- ⚡ En mi tiempo libre investigo nuevas tecnologías, juego videojuegos, estoy aprendiendo el hábito de la lectura y toco la guitarra 🎸</p>
 
 ###
 
