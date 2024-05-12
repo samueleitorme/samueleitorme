@@ -2,7 +2,7 @@
 
 🚀 Tengo 19 años y 4 años de estudio en el mundo de la informática.
 
-🌱 Actualmente estoy aprendiendo Python (Flask), Astro, Tailwind y Docker.
+🌱 Actualmente estoy aprendiendo [Nuxt](https://nuxt.com), [Vue.js](https://vuejs.org), [tailwindcss](tailwindcss.com), [Laravel](https://laravel.com) y un montón de cosillas más.
 
 🎨 En busca del minimalismo y las cosas importante de la vida. 
 
