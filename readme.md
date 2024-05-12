@@ -1,6 +1,6 @@
 # 💫 Sobre mi:
 
-🚀 Tengo 19 años y casi 4 años de experiencia en el mundo de la informática.
+🚀 Tengo 19 años y 4 años de estudio en el mundo de la informática.
 
 🌱 Actualmente estoy aprendiendo Python (Flask), Astro, Tailwind y Docker.
 
