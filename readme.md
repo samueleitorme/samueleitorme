@@ -1,8 +1,8 @@
 # 💫 Sobre mi:
 
-🚀 Tengo 19 años y 4 años de estudio en el mundo de la informática.
+🚀 Tengo 20 años y 4 años de estudio en el mundo de la informática.
 
-🌱 Actualmente estoy aprendiendo [Nuxt](https://nuxt.com), [Vue.js](https://vuejs.org), [tailwindcss](tailwindcss.com), [Laravel](https://laravel.com) y un montón de cosillas más.
+🌱 Actualmente estoy aprendiendo [Tailwindcss](tailwindcss.com), [Laravel](https://laravel.com), además de trabajar con la suite de [Power Plattform](https://www.microsoft.com/es-es/power-platform) en Xerppa&reg;.
 
 🎨 En busca del minimalismo y las cosas importante de la vida. 
 
@@ -11,9 +11,7 @@
 ### Web y Frameworks
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) 
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
 
 ### Sistemas
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) 
@@ -25,7 +23,6 @@
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) 
 
 ### Lenguajes
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) 
