@@ -1,8 +1,8 @@
 # 💫 Sobre mi:
 
-🚀 Tengo 20 años y 4 años de estudio en el mundo de la informática.
+🚀 Me llamo Samuel, tengo 21 años y me gusta el mundo de la informática.
 
-🌱 Actualmente estoy aprendiendo [Tailwindcss](tailwindcss.com), [Laravel](https://laravel.com), además de trabajar con la suite de [Power Plattform](https://www.microsoft.com/es-es/power-platform) en Xerppa&reg;.
+🌱 Actualmente estoy aprendiendo [Tailwindcss](tailwindcss.com), [Laravel](https://laravel.com), además de trabajar con la suite de [Power Plattform](https://www.microsoft.com/es-es/power-platform) en [Xerppa](https://www.xerppa.com/).
 
 🎨 En busca del minimalismo y las cosas importante de la vida. 
 
